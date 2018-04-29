@@ -69,5 +69,9 @@ function value(event, attribute) {
   return value;
 }
 
-module.exports.isEmpty = isEmpty;
-module.exports.value = value;
+const parameter = {
+  isEmpty: isEmpty,
+  value: value
+};
+
+module.exports = parameter;
