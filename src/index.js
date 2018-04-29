@@ -1,4 +1,4 @@
-exports.isEmpty = (event, attribute) => {
+function isEmpty(event, attribute) {
   let isEmpty = true;
   if (!event && !attribute) return isEmpty;
 
@@ -32,9 +32,9 @@ exports.isEmpty = (event, attribute) => {
   }
 
   return isEmpty;
-};
+}
 
-exports.value = (event, attribute) => {
+function value(event, attribute) {
   let value = '';
 
   if (event.pathParameters !== null && event.pathParameters !== undefined) {
@@ -67,4 +67,7 @@ exports.value = (event, attribute) => {
   }
 
   return value;
-};
+}
+
+module.exports.isEmpty = isEmpty;
+module.exports.value = value;
