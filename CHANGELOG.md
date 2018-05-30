@@ -1,3 +1,7 @@
+## 0.2.0 (May 30, 2018)
+
+* Add the method validade
+
 ## 0.1.1 (Apr 28, 2018)
 
 * Bug fix
