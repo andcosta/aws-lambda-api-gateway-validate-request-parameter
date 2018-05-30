@@ -34,6 +34,15 @@ function isEmpty(event, attribute) {
   return isEmpty;
 }
 
+function validate(event, attributes) {
+  for (const i in attributes) {
+    const attribute = attributes[i];
+    if (isEmpty(event, attribute)) return `${attribute} is required`;
+  }
+
+  return true;
+}
+
 function value(event, attribute) {
   let value = '';
 
@@ -71,7 +80,8 @@ function value(event, attribute) {
 
 const parameter = {
   isEmpty: isEmpty,
-  value: value
+  value: value,
+  validate: validate
 };
 
 module.exports = parameter;
