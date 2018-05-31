@@ -1,4 +1,4 @@
-## 0.2.0 (May 30, 2018)
+## 0.2.01 (May 30, 2018)
 
 * Add the method validade
 
