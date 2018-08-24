@@ -3,13 +3,24 @@
   "version": "0.2.0",
   "description": "AWS lambda and api gateway validate request parameter",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/andcosta/aws-lambda-api-gateway-validate-request-parameter.git"
   },
-  "files": ["src"],
-  "keywords": ["aws", "lambda", "aws api gateway", "parameter", "request", "validate"],
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "aws",
+    "lambda",
+    "aws api gateway",
+    "parameter",
+    "request",
+    "validate"
+  ],
   "author": {
     "name": "Anderson Costa",
     "email": "andcosta.dev@gmail.com"

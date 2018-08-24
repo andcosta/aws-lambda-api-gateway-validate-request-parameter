@@ -1,3 +1,7 @@
+## 0.2.3 (Aug 24, 2018)
+
+- Unit test
+
 ## 0.2.2 (Aug 23, 2018)
 
 - Config unit test
