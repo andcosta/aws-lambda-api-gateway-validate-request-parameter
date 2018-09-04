@@ -1,3 +1,7 @@
+## 0.2.4 (Sep 03, 2018)
+
+- Unit test - Parameter value
+
 ## 0.2.3 (Aug 24, 2018)
 
 - Unit test
