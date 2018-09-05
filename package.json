@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-api-gateway-validate-request-parameter",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "AWS lambda and api gateway validate request parameter",
   "main": "src/index.js",
   "scripts": {

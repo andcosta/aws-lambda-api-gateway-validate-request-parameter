@@ -1,3 +1,7 @@
+## 0.2.5 (Sep 04, 2018)
+
+- Unit test - Parameter is empty
+
 ## 0.2.4 (Sep 03, 2018)
 
 - Unit test - Parameter value
