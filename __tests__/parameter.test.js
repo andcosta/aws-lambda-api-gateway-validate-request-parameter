@@ -1,7 +1,15 @@
 import RequestParameter from '../src';
 
 describe('Request Parameter', () => {
-  test('Parameter is empty', async () => {});
+  test('Parameter is empty', async () => {
+    const mock_request_parameter = {
+      param1: '',
+      param2: null
+    };
+
+    const param1 = RequestParameter.isEmpty(mock_request_parameter, 'param1');
+    expect(param1).toEqual(true);
+  });
 
   test('Parameter value', async () => {
     const mock_request_parameter = {
