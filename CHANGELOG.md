@@ -1,3 +1,7 @@
+## 1.0.0 (Sep 04, 2018)
+
+- Release
+
 ## 0.2.5 (Sep 04, 2018)
 
 - Unit test - Parameter is empty
